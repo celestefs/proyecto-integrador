@@ -1,0 +1,110 @@
+header {
+    background-color: #0a0501;
+    padding: 10px;
+}
+
+.container-fluid {
+    padding: 0px
+}
+
+span {
+    font-family: 'Cinzel', serif;
+    font-size: 14px;
+    color:beige;
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+a {
+    font-family: 'Cinzel', serif;
+    font-size: 14px;
+    color:beige;
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+#myNavbar {
+    justify-content: flex-end;
+    padding-right: 40px;
+}
+
+a:hover {
+    color:rgb(168, 110, 56);
+}
+
+#cita {
+    position: absolute;
+    padding-top: 12%;
+    left: 50px;
+    text-align: center;
+    font: bold;
+    text-shadow: #0a0501 5px;
+    line-height: 20px;
+}
+
+#first-txt {
+    position: absolute;
+    padding-top: 8%;
+    left: 30px;
+    right: 50px;
+    text-align: right;
+    text-indent: 50%;
+    font: bold;
+    text-shadow: #0a0501 5px;
+    line-height: 20px;
+}
+
+.card {
+    border: 0;
+    background-color: transparent;
+}
+
+p {
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    width:50%;
+    margin: 0 auto;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.headlines {
+    font-family: 'Cinzel', serif;
+    margin-left: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+    color:#1b0d05;
+}
+
+form {
+    text-align: center;
+}
+
+.formulario>p {
+    text-align: center
+}
+
+input {
+    margin: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0a0501;
+}
+
+@media only screen and (max-width: 600px) {
+    p {
+      text-align: justify;
+      align-items: center;
+    }
+
+    figure {
+      align-items: center;
+      justify-content: center;
+    }
+
+  }
